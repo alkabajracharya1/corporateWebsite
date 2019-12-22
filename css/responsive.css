@@ -1,0 +1,48 @@
+/*--------------ipad device---------------*/
+@media only screen and (max-device-width: 769px){
+	.background-img{width: 100%; height: 100%; background-size: cover;}
+	.navbar { margin-top: 0; background: rgba(0,0,0,0.7); height: 70px;}
+	.navbar-nav{background:  rgba(0,0,0,0.5);margin:0px; padding: 10px 20px;width: 100%;}
+	.navbar-brand img{height: 50px; width: 70px;}
+	.bannerbg h2 {font-size: 54px; padding-top: 220px;}
+	.bannerbg p{font-size: 19px; margin-bottom: 3rem;}
+	.bannerbg .banner-btn{padding-bottom: 225px;}
+	.team-img img {width: 100%;height: 80%;margin: auto;}
+	.info{margin: auto;}
+	.btn {padding-left: 2rem!important; padding-right: 2rem!important;}
+	.gallary-photos img {height: 92%;width: 100%;padding: 5px 20px;}
+	.count-title {font-size: 39px;}
+	.card, #team .card{height: 100%;}
+	#team .card-body p{font-size: 12px;}
+	#team img{width: 80%; height: 45%; border-radius: 20%; }	
+	.cardcarousel{width: 100%; height: 100%;}
+	.line {width: 68%;}
+	/*for contact*/
+	.contact-details {max-width: 100%;text-align: center; padding-left: 12%;font-size: 24px;}
+    .contactpage {height: 61vh;}
+    .contact-form form {margin-left: 10%;}
+    .footer2{font-size: 21px;}
+	
+	/*-------------mobile--------------*/
+	@media only screen and (max-device-width: 520px){
+		.background-img{width: 100%; height: auto;}
+		.bannerbg h2 {font-size: 33px;padding-top: 130px;}
+		.bannerbg p {font-size: 13px;}
+		.team-img img { width: 100%; height: 60%;}
+		h1{font-size: 50px;}
+		.info {padding-top:10px; margin-top: 20px;}
+		.parallax{margin-top: -15px;}
+		.row .service-detail .card{width: 100%; margin: auto;margin-top: 10px;}
+		#portfolio h1{font-size: 42px;}
+		.gallary-photos img{height: auto;width: 86%;padding: 10px;margin-left: 7%;}
+		.counter{margin: 20px;}
+		#work p{padding: 20px;} 
+		#team h1{font-size: 42px;}
+		#team img {width: 80%; height: 35%;}
+		#team .card-body p{font-size: 18px;}	
+		#connect i{font-size: 50px;padding: 35px;}
+		/*for contact*/
+		.contact-details {max-width: 100%;text-align:justify;font-size: 19px; margin: auto; padding-bottom: 30px;}
+	    .contactpage {height: auto; padding-bottom: 20px;}
+	    .footer2{font-size: 21px; width: 100%; }
+}

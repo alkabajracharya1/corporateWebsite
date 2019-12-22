@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.new{
+			background: yellow;
+			padding: 20px;
+			position: fixed;
+		}
+		header{
+			background: blue;
+			padding: 50px;
+			position: fixed;
+			width: 100%;
+
+		}
+		body{
+			height: 1990px;
+		}
+	</style>
+</head>
+<body>
+
+	<header></header>
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+	$(window).scroll(function(){
+		if($(this).scrollTop()> 50) 
+		{
+			$("header").addClass("new");
+		}
+		else
+		{
+			$("header").removeClass("new");
+		}
+});
+	</script>
+
+</body>
+</html>
